@@ -1,0 +1,60 @@
+.sd-page{
+    width: 100%;
+    background: #ccc;
+    height: auto;
+    position: relative;
+}
+
+.sd-page h2{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sd-wrap {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sd-csv-input {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.sd-input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.action.primary{
+    display: block;
+}
+
+.sd-button {
+    margin: 0 auto;
+}
+
+.page-title-wrapper {
+    display: none;
+}
+
+.product-box {
+    text-align: center;
+}
+
+#products-list{
+    position: absolute;
+    display: none;
+    right: 320px;
+    top: 70px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    height: 200px;
+    overflow-x: overlay;
+}
+
+#products-list li{
+    cursor: pointer;
+}

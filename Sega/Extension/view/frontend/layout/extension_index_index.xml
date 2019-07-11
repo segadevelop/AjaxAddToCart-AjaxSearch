@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Sega_Dev Extension</title>
+        <script src="Sega_Extension::js/custom.js" />
+        <link src="Sega_Extension::css/custom.css" />
+    </head>
+    <referenceContainer name="content">
+        <block cacheable="false"  name="extension_index_index" class="Sega\Extension\Block\Search" template="Sega_Extension::index.phtml" />
+    </referenceContainer>
+</page>

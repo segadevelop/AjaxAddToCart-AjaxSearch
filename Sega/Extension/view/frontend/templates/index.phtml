@@ -1,0 +1,38 @@
+
+    <div class="sd-page">
+        <h2>Sega_Extension (Search SKU Product If Exist to AddCart)</h2>
+
+        <div class="sd-wrap">
+            <form id="sku-form" action="<?php echo $block->getActionUrl(); ?>" method="post">
+
+                <input type="text" id="skuSearch" required class="sd-input" name="search_sku">
+
+                <ul id="products-list">
+
+                </ul>
+
+                <button id="sku-btn" type="submit" title="Search SKU" class="sd-button action search primary">
+                    <span>Search SKU and Exist add to Cart</span>
+                </button>
+
+            </form>
+        </div>
+
+
+        <div class="product-box" style="display: none;">
+            <h2>Sega_Extension (CSV List AddCart)</h2>
+
+        <div class="sd-wrap">
+                <form id="csv-upload" class="csv-add" action="/extension/csv/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" required class="sd-csv-input" name="csv" />
+                    <button type="submit" title="Import CSV" class="sd-button action import primary"><span>Get Add Cart To CSV List</span></button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
